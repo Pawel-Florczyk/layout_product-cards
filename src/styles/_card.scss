@@ -1,4 +1,4 @@
-@use '_variables.scss' as *;
+@use 'variables' as *;
 
 .product {
   width: $card-width;
@@ -119,27 +119,27 @@
       height: 40px;
       border-radius: 5px;
       margin-left: $spacing-base;
-    }
 
-    &__button:hover {
-      position: absolute;
-      top: 351px;
-      display: block;
-      box-sizing: border-box;
-      background-color: $color-white;
-      border: 1px solid $color-button;
-      text-decoration: none;
-      color: $color-button;
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 40px;
-      letter-spacing: 0%;
-      text-transform: uppercase;
-      text-align: center;
-      width: $objects-width;
-      height: 40px;
-      border-radius: 5px;
-      margin-left: $spacing-base;
+      &:hover {
+        position: absolute;
+        top: 351px;
+        display: block;
+        box-sizing: border-box;
+        background-color: $color-white;
+        border: 1px solid $color-button;
+        text-decoration: none;
+        color: $color-button;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        text-align: center;
+        width: $objects-width;
+        height: 40px;
+        border-radius: 5px;
+        margin-left: $spacing-base;
+      }
     }
   }
 }

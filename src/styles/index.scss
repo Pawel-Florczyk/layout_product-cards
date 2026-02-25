@@ -1,6 +1,6 @@
-@use '_variables.scss' as *;
-@use '_card.scss' as *;
-@use '_stars.scss' as *;
+@use 'variables' as *;
+@use 'card' as *;
+@use 'stars' as *;
 
 body {
   font-family: Roboto, sans-serif;
